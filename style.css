@@ -1,0 +1,16 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    color: rgb(41, 153, 125);
+    font-size: 60px;
+}
+
+.icon {
+    width: 3%;
+    position: relative;
+    bottom: 0;
+    left: 90%;
+    transform: translateX(-50%);
+}
