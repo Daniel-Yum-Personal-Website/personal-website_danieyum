@@ -5,14 +5,7 @@ body {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    margin-bottom: 0.5rem;
-}
 
-h2 {
-    line-height: 1;
-}
 
 .mainTitle {
     margin-left: 350px;
@@ -29,13 +22,24 @@ h2 {
 .aboutMeTitle {
     font-size: 90px;
     margin-left: 350px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+
+.aboutMeTitle h1 {
+    margin-bottom: 5px;
 }
 
 p {
-    line-height: 1;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 425px;
 }
+
+.aboutMewritten {
+    margin-top: 5px;
+}
+
+
 
 .nav-container {
     top: 0;
@@ -50,6 +54,10 @@ p {
     padding-left: 30px;
     position: fixed;
 }
+
+/* .nav-container a {
+    margin-top: 30px;
+} */
 
 .nav-link {
     color: #b7b7b7;
@@ -67,6 +75,7 @@ p {
     font-size: 35px;
     text-decoration: none;
     margin: 10px 0;
+    margin-top: 30px;
 }
 
 .icon-container {
@@ -127,5 +136,5 @@ p {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-left: 500px;
+    margin-left: 550px;
 }
