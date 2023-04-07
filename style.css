@@ -5,8 +5,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 .mainTitle {
     margin-left: 350px;
     font-size: 90px;
@@ -35,11 +33,21 @@ p {
     margin-left: 425px;
 }
 
+.aboutMainContents {
+    display: grid;
+    grid-template-columns: 1fr 1450px;
+}
+
 .aboutMewritten {
     margin-top: 5px;
 }
 
-
+.aboutImage img {
+    margin-top: -250px;
+    padding-left: 150px;
+    width: 65%;
+    height: auto;
+}
 
 .nav-container {
     top: 0;
@@ -101,6 +109,8 @@ p {
     right: 0;
 }
 
+
+
 .imageContainer {
     display: flex;
     align-items: center;
@@ -138,3 +148,32 @@ p {
     border-radius: 5px;
     margin-left: 550px;
 }
+
+/* form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
