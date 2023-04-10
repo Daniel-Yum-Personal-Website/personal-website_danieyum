@@ -5,6 +5,58 @@ body {
     margin: 0 auto;
 }
 
+.nav-container {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    /* Change the background color */
+    width: 200px;
+    /* Change the width of the left bar */
+    height: 100vh;
+    /* Set the height to the full viewport height */
+    padding-left: 30px;
+    position: fixed;
+}
+
+/* .nav-container a {
+    margin-top: 30px;
+} */
+.nav-main {
+    color: #b7b7b7;
+    font-size: 35px;
+    text-decoration: none;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #b7b7b7;
+    /* Change the font color as desired */
+    font-size: 20px;
+    /* Change the font size as desired */
+    text-decoration: none;
+    /* Remove the underline from the links */
+    margin: 10px 0;
+    /* Add some space between the links */
+}
+
+
+
+.icon-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 20px 0;
+    padding-left: 30px;
+}
+
+.icon {
+    width: 27px;
+    height: 27px;
+}
 
 /* Style for h2 */
 .secondMainTitle {
@@ -102,57 +154,7 @@ p {
     height: auto;
 }
 
-.nav-container {
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #333333;
-    /* Change the background color */
-    width: 200px;
-    /* Change the width of the left bar */
-    height: 100vh;
-    /* Set the height to the full viewport height */
-    padding-left: 30px;
-    position: fixed;
-}
 
-/* .nav-container a {
-    margin-top: 30px;
-} */
-
-.nav-link {
-    color: #b7b7b7;
-    /* Change the font color as desired */
-    font-size: 20px;
-    /* Change the font size as desired */
-    text-decoration: none;
-    /* Remove the underline from the links */
-    margin: 10px 0;
-    /* Add some space between the links */
-}
-
-.nav-main {
-    color: #b7b7b7;
-    font-size: 35px;
-    text-decoration: none;
-    margin: 10px 0;
-    margin-top: 30px;
-}
-
-.icon-container {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    align-items: flex-end;
-    width: 100%;
-    padding: 20px 0;
-    padding-left: 30px;
-}
-
-.icon {
-    width: 27px;
-    height: 27px;
-}
 
 
 
@@ -196,7 +198,13 @@ p {
     margin-left: 550px;
 }
 
-/* form {
+
+.contactMe {
+    margin-top: 50px;
+    align-content: center;
+}
+
+form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -218,9 +226,9 @@ textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: rgb(133, 133, 133);
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-} */
+}
