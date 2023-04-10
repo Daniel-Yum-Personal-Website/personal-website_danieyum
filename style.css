@@ -60,7 +60,7 @@ body {
 
 /* Style for h2 */
 .secondMainTitle {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     padding-left: 350px;
