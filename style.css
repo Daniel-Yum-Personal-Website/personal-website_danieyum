@@ -69,7 +69,7 @@ body {
 
 /* Style for h1 */
 .mainTitle {
-    margin-top: 150px;
+    margin-top: -100px;
     padding-left: 350px;
     font-size: 90px;
 }
@@ -87,17 +87,21 @@ body {
 }
 
 /* Style for mainImage */
-.mainImage {
-    position: absolute;
+.mainImage img {
+    margin-top: -300px;
+    padding-left: 1140px;
+    width: 50%;
+    height: 100%;
+    /* position: absolute;
     top: 200px;
     right: 350px;
-    width: 30%;
+    width: 30%; */
 }
 
-.mainImage img {
+/* .mainImage img {
     width: 150%;
     height: 150%;
-}
+} */
 
 /* .mainTitle {
     margin-left: 350px;
