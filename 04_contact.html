@@ -31,11 +31,13 @@
     </nav>
 
     <div class="contactMe">
-        <form method="post" action="/submit-form">
-            <label for="name">Name:</label>
+        <span class="requiredInfo">*</span> Required
+        <form method="post" action="../personal-website_danieyum/05_contactForm.html" style="line-height: 2">
+            
+            <label for="name">Name:<span class="requiredInfo"></span></label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
+            <label for="email">Email:<span class="requiredInfo"></span></label>
             <input type="email" id="email" name="email" required>
 
             <label for="message">Message:</label>
